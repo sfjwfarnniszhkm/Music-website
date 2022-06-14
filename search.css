@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 2, 2, 0.726);
+    animation-name: body;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes body{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+input{
+    width: 1000px;
+    height: 30px;
+    border-radius: 25px;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input{
+    text-align: center;
+    height: 50px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+button {
+    height: 50px;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgba(8, 2, 2, 0.726);
+    color: white;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+button:hover{
+    background-color: green;
+}
+@keyframes button{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+a{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+audio{
+    height: 30px;
+    width:100%;
+    color: green;
+    background-color: black;
+    animation-name: audio;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes audio{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}

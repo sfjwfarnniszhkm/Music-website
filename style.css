@@ -1,0 +1,134 @@
+header{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    overflow: hidden;
+    padding-left: 24px;
+    animation-name: header;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes header{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+header::before{
+    background-color: white;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 2, 2, 0.726);
+    animation-name: Body;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes body{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes button{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+button {
+    height: 50px;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgba(8, 2, 2, 0.726);
+    color: white;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+button:hover{
+    background-color: green;
+}
+main{
+    width: 927px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation-name: main;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes main{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+nav{
+    display: flex;
+}
+section{
+    width: 309px;
+    height: 210px;
+}
+section .alpha{
+    background-color: red;
+    width: 309px;
+    height: 210px;
+}
+section .bravo{
+    background-color: orange;
+    width: 309px;
+    height: 210px;
+}
+section .charlie{
+    background-color: darkblue;
+    width: 309px;
+    height: 210px;
+}
+section .delta{
+    background-color: blue;
+    width: 309px;
+    height: 210px;
+}
+section .echo{
+    background-color: green;
+    width: 309px;
+    height: 210px;
+}
+section .foxtrot{
+    background-color: yellow;
+    width: 309px;
+    height: 210px;
+}
+.sidebar {
+    width: 309px;
+    height: 410px;
+    float: right;
+    clear: both;
+}
+aside{
+    margin: 5px;
+    width: 299px;
+    height: 200px;
+    background-color: black;
+    border-radius: 5px;
+    animation-name: main;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes aside{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+a{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}

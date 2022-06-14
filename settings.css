@@ -1,0 +1,95 @@
+.PersonalInformation{
+    border-bottom: 2px;
+    border-radius: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 50px;
+    animation-name: PersonalInformation;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes PersonalInformation{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: white;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes button{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+.LikedSongs{
+    border-bottom: 2px;
+    border-radius: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 50px;
+    animation-name: LikedSongs;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes LikedSongs{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+.Tutorial{
+    border-bottom: 2px;
+    border-radius: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 50px;
+    animation-name: Tutorial;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes Tutorial{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+.Friends{
+    border-bottom: 2px;
+    border-radius: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 50px;
+    animation-name: Friends;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes Friends{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+div a{
+    color:gray;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 36px;
+}

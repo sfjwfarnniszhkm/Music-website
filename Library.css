@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(8, 2, 2, 0.726);
+    animation-name: body;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes body{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+a{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+button {
+    height: 50px;
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgba(8, 2, 2, 0.726);
+    color: white;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+button:hover{
+    background-color: green;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+div button{
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes button{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
+h1{
+    color: white;
+    font-size: 24px;
+    padding-left: 24px;
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes h1{
+    0%{transform: translatex(628px);}
+    100%{transform: translatex(0px);}
+}
